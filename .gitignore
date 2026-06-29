@@ -1,0 +1,13 @@
+# macOS
+.DS_Store
+**/.DS_Store
+
+# windows
+Thumbs.db
+ehthumbs.db
+
+# linux
+.directory
+
+# ignore all trash folders
+**/trash/
