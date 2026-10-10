@@ -1,0 +1,7 @@
+Ref,Val,Package,PosX,PosY,Rot,Side
+"C1","47uF/16V","CP_Elec_6.3x5.4",114.600000,-115.600000,0.000000,bottom
+"C2","47uF/16V","CP_Elec_6.3x5.4",107.900000,-107.600000,-90.000000,bottom
+"M1","N20Motor","N20MotorConn",101.050000,-107.150000,-90.000000,bottom
+"M2","N20Motor","N20MotorConn",104.900000,-124.300000,0.000000,bottom
+"M3","N20Motor","N20MotorConn",118.750000,-103.700000,180.000000,bottom
+"M4","N20Motor","N20MotorConn",122.500000,-121.150000,90.000000,bottom

@@ -1,0 +1,20 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+C1,47uF/16V,CP_Elec_6.3x5.4,114.6,-115.6,0,bottom
+C2,47uF/16V,CP_Elec_6.3x5.4,107.9,-107.6,-90,bottom
+M1,N20Motor,N20MotorConn,101.05,-107.15,-90,bottom
+M2,N20Motor,N20MotorConn,104.9,-124.3,0,bottom
+M3,N20Motor,N20MotorConn,118.75,-103.7,180,bottom
+M4,N20Motor,N20MotorConn,122.5,-121.15,90,bottom
+C3,10uF,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,124.7,-114.6,-90,top
+C4,10uF,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,109.3,-121.1625,-90,top
+C5,0.1uF,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,120.07,-100.81,0,top
+D1,LED,LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder,113.13,-121.19,0,top
+J1,Conn_01x12_Pin,PinHeader_2x06_P2.54mm_Vertical_SMD,105.3,-104.8,90,top
+J2,Conn_01x01_Pin,PinHeader_1x01_P2.54mm_Vertical,113.24,-123.85,0,top
+J3,Conn_01x01_Pin,PinHeader_1x01_P2.54mm_Vertical,99.65,-115.55,0,top
+R9,1k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,110.7,-126.2875,-90,top
+RN1,10k,R_Array_Convex_4x0603,107.9,-115.7,-90,top
+RN2,10k,R_Array_Convex_4x0603,104.2,-115.7,-90,top
+U1,PCA9685PW,TSSOP-28_4.4x9.7mm_P0.65mm,121.48,-106.69,0,top
+U2,TB6612FNG,SSOP-24_5.3x8.2mm_P0.65mm,103.7,-121.85,0,top
+U3,TB6612FNG,SSOP-24_5.3x8.2mm_P0.65mm,120.25,-121.85,0,top

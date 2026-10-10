@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "N20MotorConnnector")(type "KiCad")(uri "${KIPRJMOD}/N20MotorConnnector.kicad_sym")(options "")(descr ""))
+)
