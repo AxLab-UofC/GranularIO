@@ -57,11 +57,11 @@ The EM platform uses an array of electromagnets. The annotated CAD rendering ide
 | **1** | `1_EM_Cover.stl` | Cover for the electromagnet array. | 3D printing |
 | **2** | `2_EM_Hub.stl` | Hub that positions and supports the electromagnets within the assembly. | 3D printing |
 | **3** | `3_MetalDisk.step` | Metal disk component mounted above the electromagnet units. | **Waterjet cut from sheet metal** using the supplied CAD geometry. |
-| **4** | Electromagnet ([Amazon Link](https://a.co/d/0aAqXKZJ)) | Off-the-shelf electromagnet used in the array. | **Purchased online**; no fabrication file is supplied for this component. |
+| **4** | Electromagnet ([Amazon Link](https://a.co/d/0aAqXKZJ)) | Off-the-shelf electromagnet,25 x 20 mm, 12V 50N. | **Purchased online**; no fabrication file is supplied for this component. |
 
 Additional reference images are included in `Hardware/EM/`: `EM_Assembly.png` and [`EM_Bottom.png`](Hardware/EM/EM_Bottom.png).
 
-The STEP file for part 3 provides the metal disk geometry, but material grade and thickness should be confirmed before ordering waterjet-cut parts. The electromagnet specifications and supplier should likewise be verified before purchasing replacements.
+The STEP file for part 3 provides the metal disk geometry for waterjet-cut.
 
 ## LAPM hardware assembly
 
@@ -76,10 +76,10 @@ The LAPM platform contains an array of motor-driven magnetic actuator pins. The 
 | No. | File or folder (inside `Hardware/LAPM/`) | Description |
 | --- | --- | --- |
 | **1** | `1_Rail_Array.stl` | Rail array that guides the sliding motion of the magnets. |
-| **2** | `2_Motor_Hub.stl` | Motor-mounting structure. Motors are fastened to the hub with screws; the hub also attaches to the rail array (1) and supporting beams (3). |
+| **2** | `2_Motor_Hub.stl` | Motor-mounting structure. Motors are fastened to the hub with M1.6x5mm screws; the hub also attaches to the rail array (1) and supporting beams (3). |
 | **3** | `3_Supporting_Beams/` | Four separate support beams (`a`, `b`, `c`, `d`) connecting the motor hub (2) to the lower electronics assembly. |
-| **4** | `4_MotherBoard_PCB/` | Fabrication files, documentation, and 3D model for the motherboard PCB. |
-| **5** | `5_MotorDriver_PCB/` | Fabrication and assembly files for the motor-driver PCB. |
+| **4** | `4_MotherBoard_PCB/` | Fabrication files and 3D model for the motherboard PCB. |
+| **5** | `5_MotorDriver_PCB/` | Fabrication files and 3D model for the motor-driver PCB, that is connected to the Mother Board with Pinheaders. |
 | **6** | `6_Pin/` | 3D-printable components used in an individual actuator pin. |
 
 ### Individual actuator pin
