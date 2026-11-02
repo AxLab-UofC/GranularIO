@@ -96,7 +96,7 @@ The `Hardware/LAPM/6_Pin/` folder includes:
 | `6_2_Screw_Connector.stl` | Connects the screw-driven mechanism to the moving pin assembly. |
 | `6_3_Encoder_Cap.stl` | Cap for the motor encoder assembly. |
 
-[This slide](https://docs.google.com/presentation/d/1T_x9g9Pdym3wyG20I9B1YjZg6939GeQyak7WqCD--_k/edit?usp=sharing) shows how to make a magnet pin. 
+[This slide](https://docs.google.com/presentation/d/1T_x9g9Pdym3wyG20I9B1YjZg6939GeQyak7WqCD--_k/edit?usp=sharing) shows how to assemble the magnet to the magnet holder and insert the heated insert.
 
 Additionally, here is the link to the motor([Product Page](https://www.airsoftmotor.com/encoder-motor/gear-reduction-motor-with-encoder/n20-dc-gear-motor-with-3ppr-encoder.html), [supply from Taobao](https://e.tb.cn/h.jTdf8Ap64kuxkYI?tk=QmXS6ZMdcci), [Pololu Alternative](https://www.pololu.com/product/3048) and its [encoder](https://www.pololu.com/product/3081). As well as the [screws](https://www.mcmaster.com/products/screws/hex-head-screws-1~/thread-size~m3/length~40-mm/), and [magnets](https://www.kjmagnetics.com/d68-neodymium-cylinder-magnet) used in making the pin. We also recommend using [this silicone grease](https://www.amazon.com/dp/B0CSJ7NJ6Y) for lubrication, as it won't dissolve the glue used in other parts of the pin.
 
