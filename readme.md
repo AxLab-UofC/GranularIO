@@ -5,7 +5,7 @@ This repo contains the GUI, Arduino code, mechanical and electrical design files
 
 Chi Wang, Clara Cui, Alan Pham, Justice T Andersen, Tucker Rae-Grant, and Ken Nakagaki. **Granular I/O: Enabling Bi-directional Malleable Interaction for Actuated TUIs with Magnetic Particles.** *ACM Symposium on User Interface Software and Technology (UIST 2026).* [DOI: 10.1145/3830398.3830589](https://doi.org/10.1145/3830398.3830589).
 
-[Project Website](https://www.axlab.cs.uchicago.edu/projects/granular-io) | [Paper](https://doi.org/10.1145/3830398.3830589) | [Video](https://youtu.be/jblO1pQyjmk)
+[Project Website](https://www.axlab.cs.uchicago.edu/projects/granular-io) |[Paper PDF](https://www.axlab.cs.uchicago.edu/_files/ugd/bef049_0de81f3c0d4b4951962cf3efb3ace36e.pdf)| [DOI](https://doi.org/10.1145/3830398.3830589) | [Video](https://youtu.be/jblO1pQyjmk)
 
 ## Repository structure
 
