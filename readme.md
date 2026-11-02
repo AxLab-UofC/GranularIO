@@ -5,7 +5,9 @@
 
 GranularIO explores the interactivity of granular materials through externally actuated magnetic particles. This repo contains the GUI, Arduino code, mechanical and electrical design files of the prototype device.
 
-> **Status:** Fabrication and design files for the EM and LAPM hardware are available in this repository. Documentation is still being expanded; complete assembly, wiring, and software setup instructions are not yet provided here.
+## Publication
+
+Chi Wang, Clara Cui, Alan Pham, Justice T Andersen, Tucker Rae-Grant, and Ken Nakagaki. **Granular I/O: Enabling Bi-directional Malleable Interaction for Actuated TUIs with Magnetic Particles.** *ACM Symposium on User Interface Software and Technology (UIST 2026).* [DOI: 10.1145/3830398.3830589](https://doi.org/10.1145/3830398.3830589).
 
 ## Repository structure
 
