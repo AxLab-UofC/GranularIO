@@ -96,6 +96,8 @@ The `Hardware/LAPM/6_Pin/` folder includes:
 | `6_2_Screw_Connector.stl` | Connects the screw-driven mechanism to the moving pin assembly. |
 | `6_3_Encoder_Cap.stl` | Cap for the motor encoder assembly. |
 
+[This slide](https://docs.google.com/presentation/d/1T_x9g9Pdym3wyG20I9B1YjZg6939GeQyak7WqCD--_k/edit?usp=sharing) shows how to make a magnet pin.
+
 ### PCB fabrication files
 
 **Motherboard** — `Hardware/LAPM/4_MotherBoard_PCB/`
