@@ -1,9 +1,9 @@
 
 **Hardware design, fabrication files, and software for Granular IO.**
 
-[Project Website](https://www.axlab.cs.uchicago.edu/projects/granular-io) | [Paper](https://doi.org/10.1145/3830398.3830589)
+[Project Website](https://www.axlab.cs.uchicago.edu/projects/granular-io) | [Paper](https://doi.org/10.1145/3830398.3830589) | [Video](https://youtu.be/jblO1pQyjmk)
 
-Granular I/O is a project that aims to explore bidirectional, malleable tangible interaction using clusters of passive magnetic particles. This repository hosts hardware design and fabrication resources, Arduino code, and the software GUI of the prototype.
+GranularIO explores the interactivity of granular materials through externally actuated magnetic particles. This repo contains the GUI, Arduino code, mechanical and electrical design files of the prototype device.
 
 > **Status:** Fabrication and design files for the EM and LAPM hardware are available in this repository. Documentation is still being expanded; complete assembly, wiring, and software setup instructions are not yet provided here.
 
