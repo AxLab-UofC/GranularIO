@@ -1,12 +1,11 @@
-# Granular I/O
 
 **Hardware design, fabrication files, and software for Granular IO.**
 
-[Project website](https://www.axlab.cs.uchicago.edu/projects/granular-io) · [Paper](https://doi.org/10.1145/3830398.3830589)
+[Project Website](https://www.axlab.cs.uchicago.edu/projects/granular-io) | [Paper](https://doi.org/10.1145/3830398.3830589)
 
 Granular I/O is a project that aims to explore bidirectional, malleable tangible interaction using clusters of passive magnetic particles. This repository hosts hardware design and fabrication resources, Arduino code, and the software GUI of the prototype.
 
-> **Status:** This repository is being updated. The LAPM fabrication files listed below are included in the current folder structure; complete assembly, wiring, and software setup instructions are not yet provided in this README.
+> **Status:** Fabrication and design files for the EM and LAPM hardware are available in this repository. Documentation is still being expanded; complete assembly, wiring, and software setup instructions are not yet provided here.
 
 ## Repository structure
 
@@ -18,7 +17,12 @@ GranularIO/
 ├── GUI/
 │   └── GranularIO/                 # Graphical user interface
 ├── Hardware/
-│   ├── EM/                         # EM hardware resources
+│   ├── EM/                         # Electromagnet array fabrication files
+│   │   ├── 1_EM_Cover.stl
+│   │   ├── 2_EM_Hub.stl
+│   │   ├── 3_MetalDisk.step
+│   │   ├── EM_Assembly.png
+│   │   └── EM_Bottom.png
 │   ├── LAPM/                       # LAPM fabrication files (detailed below)
 │   │   ├── 1_Rail_Array.stl
 │   │   ├── 2_Motor_Hub.stl
@@ -40,13 +44,32 @@ GranularIO/
 └── README.md
 ```
 
+## EM hardware assembly
+
+The EM platform uses an array of electromagnets. The annotated CAD rendering identifies the fabricated components and purchased electromagnets used in the assembly.
+
+![Annotated EM hardware assembly](Hardware/EM/EM_Assembly.png)
+
+*Figure 1. EM assembly with numbered components. Parts 1–3 correspond to design files in `Hardware/EM/`; part 4 is a purchased electromagnet.*
+
+| No. | File or component (inside `Hardware/EM/`) | Description | Fabrication / sourcing |
+| --- | --- | --- | --- |
+| **1** | `1_EM_Cover.stl` | Cover for the electromagnet array. | 3D printing |
+| **2** | `2_EM_Hub.stl` | Hub that positions and supports the electromagnets within the assembly. | 3D printing |
+| **3** | `3_MetalDisk.step` | Metal disk component mounted above the electromagnet units. | **Waterjet cut from sheet metal** using the supplied CAD geometry. |
+| **4** | Electromagnet (purchased) | Off-the-shelf electromagnet used in the array. | **Purchased online**; no fabrication file is supplied for this component. |
+
+Additional reference images are included in `Hardware/EM/`: `EM_Assembly.png` and [`EM_Bottom.png`](Hardware/EM/EM_Bottom.png).
+
+The STEP file for part 3 provides the metal disk geometry, but material grade and thickness should be confirmed before ordering waterjet-cut parts. The electromagnet specifications and supplier should likewise be verified before purchasing replacements.
+
 ## LAPM hardware assembly
 
 The LAPM platform contains an array of motor-driven magnetic actuator pins. The numbered callouts below correspond to the files and folders in `Hardware/LAPM/`.
 
 ![Annotated LAPM hardware assembly](images/assembly-annotated.png)
 
-*Figure 1. LAPM assembly and its six main component groups.*
+*Figure 2. LAPM assembly and its six main component groups.*
 
 ### Mechanical components
 
@@ -63,7 +86,7 @@ The LAPM platform contains an array of motor-driven magnetic actuator pins. The 
 
 ![Individual actuator pin CAD rendering](images/actuator-pin.png)
 
-*Figure 2. Individual motor-driven actuator pin.*
+*Figure 3. Individual motor-driven actuator pin.*
 
 The `Hardware/LAPM/6_Pin/` folder includes:
 
@@ -104,13 +127,13 @@ A separate `Hardware/LAPM/PCB Kicad Files/` folder is also included for addition
 
 ![Complete LAPM actuation array](images/assembly-overview.png)
 
-*Figure 3. Assembled LAPM motor array, support frame, and electronics.*
+*Figure 4. Assembled LAPM motor array, support frame, and electronics.*
 
 ## Fabrication notes
 
-- The `.stl` files are intended for manufacturing the mechanical components, typically by 3D printing. The `.step` files provide 3D PCB models.
+- The `.stl` files are intended for 3D-printing the mechanical components. The EM `3_MetalDisk.step` is for waterjet cutting metal sheet; the PCB `.step` files provide 3D board models.
 - Gerber archives are intended for PCB fabrication; schematic PDFs and front/back drawings are provided for reference. For the motor-driver PCB, a BOM and placement file are also included.
-- Motors, magnets, screws, and other purchased components are not part of the printable STL files.
+- Motors, magnets, electromagnets, screws, and other off-the-shelf components must be sourced separately; they are not included in the printable STL files.
 - The files are provided as design and fabrication resources, **not** as a complete tested assembly guide. Check dimensions, interfaces, manufacturing requirements, and file revisions before ordering parts.
 
 ## Publication
