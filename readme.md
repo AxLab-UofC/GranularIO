@@ -38,8 +38,8 @@ GranularIO/
 │   │   │   ├── 6_2_Screw_Connector.stl
 │   │   │   └── 6_3_Encoder_Cap.stl
 │   │   └── PCB Kicad Files/        # Additional KiCad-related files
-│   └── Other 3D Print Files/       # Other printable components
-├── images/                          # README illustrations
+│   └── Particles/                  # 3D print files for particles
+├── images/                         # README illustrations
 ├── LICENSE
 └── README.md
 ```
@@ -96,7 +96,9 @@ The `Hardware/LAPM/6_Pin/` folder includes:
 | `6_2_Screw_Connector.stl` | Connects the screw-driven mechanism to the moving pin assembly. |
 | `6_3_Encoder_Cap.stl` | Cap for the motor encoder assembly. |
 
-[This slide](https://docs.google.com/presentation/d/1T_x9g9Pdym3wyG20I9B1YjZg6939GeQyak7WqCD--_k/edit?usp=sharing) shows how to make a magnet pin.
+[This slide](https://docs.google.com/presentation/d/1T_x9g9Pdym3wyG20I9B1YjZg6939GeQyak7WqCD--_k/edit?usp=sharing) shows how to make a magnet pin. 
+
+Additionally, here is the link to the motor([link1](https://www.airsoftmotor.com/encoder-motor/gear-reduction-motor-with-encoder/n20-dc-gear-motor-with-3ppr-encoder.html),[supply from Taobao](https://e.tb.cn/h.jTdf8Ap64kuxkYI?tk=QmXS6ZMdcci),[US Alternative](https://www.pololu.com/product/3048) and its [encoder](https://www.pololu.com/product/3081),, [screw](https://www.mcmaster.com/products/screws/hex-head-screws-1~/thread-size~m3/length~40-mm/), and [magnet](https://www.kjmagnetics.com/d68-neodymium-cylinder-magnet) used in making the pin. We also recommend using [this silicone grease](https://www.amazon.com/dp/B0CSJ7NJ6Y) for lubrication, as it won't dissolve the glue used in other parts of the pin.
 
 ### PCB fabrication files
 
@@ -130,6 +132,15 @@ A separate `Hardware/LAPM/PCB Kicad Files/` folder is also included for addition
 ![Complete LAPM actuation array](images/assembly-overview.png)
 
 *Figure 4. Assembled LAPM motor array, support frame, and electronics.*
+
+## Particles
+
+| File | Purpose |
+| --- | --- |
+| `Sphere_5mm_mini.3mf` | Fabrication File for using 3D printers to make the particles. |
+| `Sphere_5mm_support_test.3mf` | Optional fabrication file to test the printer support setting, this is useful when printing with special filaments. |
+
+Here is a [guide](https://docs.google.com/document/d/1k1LIMI7lGGnSAPhkvcHD0EtzRTSeqdstu-cQaYbHAh0/edit?usp=sharing) to make the particles.
 
 ## Fabrication notes
 
