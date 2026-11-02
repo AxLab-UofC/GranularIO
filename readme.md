@@ -57,7 +57,7 @@ The EM platform uses an array of electromagnets. The annotated CAD rendering ide
 | **1** | `1_EM_Cover.stl` | Cover for the electromagnet array. | 3D printing |
 | **2** | `2_EM_Hub.stl` | Hub that positions and supports the electromagnets within the assembly. | 3D printing |
 | **3** | `3_MetalDisk.step` | Metal disk component mounted above the electromagnet units. | **Waterjet cut from sheet metal** using the supplied CAD geometry. |
-| **4** | Electromagnet (purchased) | Off-the-shelf electromagnet used in the array. | **Purchased online**; no fabrication file is supplied for this component. |
+| **4** | Electromagnet ([Amazon Link](https://a.co/d/0aAqXKZJ)) | Off-the-shelf electromagnet used in the array. | **Purchased online**; no fabrication file is supplied for this component. |
 
 Additional reference images are included in `Hardware/EM/`: `EM_Assembly.png` and [`EM_Bottom.png`](Hardware/EM/EM_Bottom.png).
 
