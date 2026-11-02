@@ -4227,7 +4227,7 @@
 	)
 	(text "Goals:\nPower:\nPower<-PowerSupply\nPower-Zones\nPower->Motor Driver Boards;\nPower->Encoders\nFuse to prevent Overheating\n\nComm: \nConnect I2C of MCU, MotorDrivers and backup for old boards\nConnect Encoder Output to MCU\n\nLED indicator for Encoder\nLED on 2 different power up\n\nMounting\nMount for Moto Driver, For teensy 3.2and3.5\nMount holes for pcb\n"
 		(exclude_from_sim no)
-		(at -40.64 239.268 0)
+		(at 176.276 244.602 0)
 		(effects
 			(font
 				(size 1.27 1.27)
