@@ -1,6 +1,6 @@
 # Granular I/O
 
-**Hardware design, fabrication files, and software for granular tangible interaction.**
+**Hardware design, fabrication files, and software for Granular IO.**
 
 [Project Website](https://www.axlab.cs.uchicago.edu/projects/granular-io) | [Paper](https://doi.org/10.1145/3830398.3830589)
 
