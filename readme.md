@@ -80,7 +80,3 @@ The planned `6_Pin/` package includes:
 Chi Wang, Clara Cui, Alan Pham, Justice T Andersen, Tucker Rae-Grant, and Ken Nakagaki.  
 *ACM Symposium on User Interface Software and Technology (UIST), 2026.*  
 https://doi.org/10.1145/3830398.3830589
-
-## License
-
-See the [LICENSE](LICENSE) file for applicable terms.
