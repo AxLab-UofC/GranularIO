@@ -1,13 +1,11 @@
-
-**Hardware design, fabrication files, and software for Granular IO.**
-
-[Project Website](https://www.axlab.cs.uchicago.edu/projects/granular-io) | [Paper](https://doi.org/10.1145/3830398.3830589) | [Video](https://youtu.be/jblO1pQyjmk)
-
-GranularIO explores the interactivity of granular materials through externally actuated magnetic particles. This repo contains the GUI, Arduino code, mechanical and electrical design files of the prototype device.
+# Granular IO
+This repo contains the GUI, Arduino code, mechanical and electrical design files of the Granular IO project.
 
 ## Publication
 
 Chi Wang, Clara Cui, Alan Pham, Justice T Andersen, Tucker Rae-Grant, and Ken Nakagaki. **Granular I/O: Enabling Bi-directional Malleable Interaction for Actuated TUIs with Magnetic Particles.** *ACM Symposium on User Interface Software and Technology (UIST 2026).* [DOI: 10.1145/3830398.3830589](https://doi.org/10.1145/3830398.3830589).
+
+[Project Website](https://www.axlab.cs.uchicago.edu/projects/granular-io) | [Paper](https://doi.org/10.1145/3830398.3830589) | [Video](https://youtu.be/jblO1pQyjmk)
 
 ## Repository structure
 
